@@ -1,0 +1,390 @@
+{
+	"id": "27348c7d-10e2-c500-e9da-63936a68f5d5",
+	"name": "Practical Test",
+	"description": "",
+	"order": [
+		"7274c9ae-1477-52d2-1abb-6317b9e99030",
+		"e2661e2e-a058-ba45-e070-4542ea5886df",
+		"4d9bffb3-134a-e8d6-ff97-bae2273aec40"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612961361202,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "4d9bffb3-134a-e8d6-ff97-bae2273aec40",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/searchSpecification",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27348c7d-10e2-c500-e9da-63936a68f5d5",
+			"data": [
+				{
+					"key": "terminology_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "car_name",
+					"value": "Amaze",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "model",
+					"value": "2016",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "price",
+					"value": "500000",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "color",
+					"value": "Blue",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "milage",
+					"value": "25",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "photo",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "terminology_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "car_name",
+					"value": "Al",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "40000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8000/api/allSpecification",
+			"description": "Serch Car",
+			"descriptionFormat": "html",
+			"time": 1612962395919,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7274c9ae-1477-52d2-1abb-6317b9e99030",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/allSpecification",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "27348c7d-10e2-c500-e9da-63936a68f5d5",
+			"data": [
+				{
+					"key": "message",
+					"value": "Syed Saleem Amravati",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "email",
+					"value": "syedsalim92@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "taluka_id",
+					"value": "13",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "9898989898",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "name",
+					"value": "Demo Today Name",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "mobile_no",
+					"value": "3232323232",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "second_mobile_no",
+					"value": "1234567892",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "village",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "taluka",
+					"value": "13",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "city",
+					"value": "6",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "land",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "agriculture_attachment",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "dob",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "anniversary_date",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "requirement_date",
+					"value": "2020-08-20",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "customer_feedback",
+					"value": "mnbbvb",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "reason_of_visit",
+					"value": "yttt",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "next_activity_date",
+					"value": "2020-08-22",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "make",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "model",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "year",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "created_by",
+					"value": "Yogesh laddha",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8000/api/allSpecification",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612961485476,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e2661e2e-a058-ba45-e070-4542ea5886df",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/addSpecification",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "27348c7d-10e2-c500-e9da-63936a68f5d5",
+			"data": [
+				{
+					"key": "terminology_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "car_name",
+					"value": "Amaze",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "model",
+					"value": "2016",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "500000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "color",
+					"value": "Blue",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "milage",
+					"value": "25",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "photo",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://127.0.0.1:8000/api/allSpecification",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612962120055,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
